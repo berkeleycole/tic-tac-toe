@@ -1,0 +1,37 @@
+html, body, div, ul, main, section, p, h1, h2, h3, h4, h5, h6 {
+	box-sizing: border-box;
+}
+
+main {
+	text-align: center;
+	height: 100vh;
+}
+
+.board {
+	flex: 1;
+	max-width: 1170px;
+	min-height: 70vh;
+	max-height: 80vh;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.board div {
+	flex: 1;
+	min-height: 200px;
+	min-width: 33.3333%;
+	border: 1px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.board div:hover {
+
+}
+
+.clicked {
+	background: lightblue;
+}
