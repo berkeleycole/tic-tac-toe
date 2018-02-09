@@ -4,8 +4,6 @@ Built as a demo for a class project, will continue to add notes and comments to 
 
 Here are the user stories that were created for this project:
 
-Here are the user stories to guide your progress:
-
 - As a user, I should start off seeing a 3x3 grid on the main page
 
 - As a user, I should be able to click on a square to mark it. My partner should be able to
